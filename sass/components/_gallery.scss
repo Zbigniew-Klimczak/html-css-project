@@ -1,0 +1,20 @@
+.gallery {
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(
+    to bottom,
+    #fff5f6 0%,
+    #fff5f6 45%,
+    #e5e5e5 45%,
+    #e5e5e5 100%
+  );
+  margin-bottom: 40px;
+  &__heading {
+    display: none;
+  }
+  &__img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+  }
+}
